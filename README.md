@@ -91,9 +91,9 @@ This analysis provides insights for:
 ## 👤 Author
 
 **Portfolio Project for Global Economic Analysis**
-- 📧 Contact: [Your Email]
-- 💼 LinkedIn: [Your LinkedIn Profile]
-- 🔗 GitHub: [Your GitHub Profile]
+- 📧 Contact: xcanozden@gmail.com
+- 💼 LinkedIn: (https://www.linkedin.com/in/xcanozden/)
+- 🔗 GitHub: https://github.com/xcan16
 
 ## 📄 License
 
@@ -102,4 +102,4 @@ This project is licensed under the MIT License - see the LICENSE file for detail
 ---
 
 *Last Updated: September 2025 | Data Source: World Bank | Analysis Period: 1990-2023*
-⭐ Bu projeyi beğendiyseniz yıldız vermeyi unutmayın!
+⭐ If you liked this project, don’t forget to give it a star!

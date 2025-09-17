@@ -34,7 +34,11 @@ A comprehensive data analysis project examining global GDP per capita trends usi
 │   ├── visualization.py           # Visualization utilities
 │   └── utils.py                   # Helper functions
 ├── outputs/                       # Output files
-│   ├── plots/                     # Charts and visualizations
+│   ├── plots/                     # Charts and visualizations (17 files)
+│   │   ├── 01_gdp_distribution.png
+│   │   ├── 04_world_gdp_trend.html  # Interactive plots
+│   │   ├── 10_summary_dashboard.png # Project overview
+│   │   └── ... (see plots/README.md)
 │   └── gdp_with_features.csv      # Enhanced dataset
 ├── requirements.txt               # Required packages
 └── README.md                      # Project documentation
@@ -56,6 +60,11 @@ pip install -r requirements.txt
 3. Run Jupyter Notebooks:
 ```bash
 jupyter notebook
+```
+
+4. Generate all visualizations:
+```bash
+python generate_plots.py
 ```
 
 ## 📈 Key Analysis Highlights

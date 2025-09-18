@@ -1,0 +1,78 @@
+{
+  "title": "Global GDP Per Capita Analysis (1990-2023)",
+  "id": "xcan16/global-gdp-per-capita-1990-2023",
+  "licenses": [
+    {
+      "name": "CC0-1.0"
+    }
+  ],
+  "keywords": [
+    "economics",
+    "gdp",
+    "world bank",
+    "economic development",
+    "per capita income",
+    "global economy",
+    "economic analysis",
+    "time series",
+    "macroeconomics",
+    "development economics"
+  ],
+  "collaborators": [],
+  "data": [
+    {
+      "description": "Raw GDP per capita data from World Bank (1990-2023)",
+      "name": "gdp-per-capita-worldbank.csv",
+      "totalBytes": 1048576,
+      "columns": [
+        {
+          "name": "Entity",
+          "description": "Country or region name",
+          "type": "string"
+        },
+        {
+          "name": "Code",
+          "description": "ISO country code",
+          "type": "string"
+        },
+        {
+          "name": "Year",
+          "description": "Year of observation",
+          "type": "numeric"
+        },
+        {
+          "name": "GDP per capita, PPP (constant 2017 international $)",
+          "description": "GDP per capita in constant 2017 international dollars (PPP adjusted)",
+          "type": "numeric"
+        }
+      ]
+    },
+    {
+      "description": "Cleaned GDP per capita data with missing values removed",
+      "name": "gdp_cleaned.csv",
+      "totalBytes": 1048576,
+      "columns": [
+        {
+          "name": "Entity",
+          "description": "Country or region name",
+          "type": "string"
+        },
+        {
+          "name": "Code",
+          "description": "ISO country code",
+          "type": "string"
+        },
+        {
+          "name": "Year",
+          "description": "Year of observation",
+          "type": "numeric"
+        },
+        {
+          "name": "GDP per capita, PPP (constant 2017 international $)",
+          "description": "GDP per capita in constant 2017 international dollars (PPP adjusted)",
+          "type": "numeric"
+        }
+      ]
+    }
+  ]
+}
